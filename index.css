@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #EEF2F5;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 34px,
+    #C3CEDC33 35px
+  );
+}
+
+.font-display {
+  font-family: 'Lora', serif;
+}
+
+::selection {
+  background: #FFD23F;
+}
